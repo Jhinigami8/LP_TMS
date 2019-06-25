@@ -1,0 +1,130 @@
+@media (max-width: 769px) {
+    .container{
+        padding: 0px 16px;
+    }
+
+    .section{
+        padding: 64px 0px;
+    }
+
+    .sectionHeader .side{
+        margin-bottom: 36px;
+    }
+
+    .sectionHeader .bgHeader {
+        height: auto;
+        padding-bottom: 36px;
+    }
+
+    .title{
+        margin-bottom: 32px;
+    }
+
+    .headerDesktop{
+        display: none;
+    }
+
+    .headerMobile{
+        display: block !important;
+    }
+
+
+    .headerMobile .logo{
+        margin: 0 0 0 16px;
+    }
+
+    .side textarea{
+        height: 44px;
+        resize: none;
+    }
+
+    button{
+        width: 100%;
+    }
+
+    .socialSection .icons i{
+        font-size: 24px;
+        line-height: 24px;
+        margin-top: 24px;
+    }
+
+
+    .section .tabs{
+        margin-bottom: 16px;
+    }
+
+    .section .action{
+      background-color: #ff8b38;
+    }
+    .section .tab{
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .section .titleFeatures{
+      margin-bottom: 24px;
+    }
+
+    .section .buttonFeatures{
+      float: none;
+    }
+
+    .section .imgBuilding{
+      display: none;
+      }
+  }
+
+  .headerMobile{
+	width:100%; 
+	background:#000; 
+    padding: 30px 0;
+    display:inline-block; 
+    font-size:14px;
+}
+
+.hamburger{
+    width: 24px;
+    height: 24px;
+    background: url('../imgs/menu.png') center no-repeat;
+}
+.cross{
+    width: 24px;
+    height: 24px;
+    background: url('../imgs/cross.png') center no-repeat;
+
+}
+.menu{
+    z-index:1000000; 
+    width:100%; 
+    background:#000;  
+    position:absolute; 
+    text-align:center; 
+}
+
+    .menu ul {
+        margin: 0; 
+        padding: 0; 
+        list-style-type: none; 
+        list-style-image: none;
+    }
+
+    .menu li {
+        display: block;   
+        padding:15px 0 15px 0; 
+        color: #fff;
+    }
+
+    .menu li:hover{  
+        background:#ff8b38;; 
+    }
+        
+        .menu ul li a { 
+            text-decoration:none;  
+            margin: 0px; 
+            color:#666;
+        }
+    
+}
+
+
+        
